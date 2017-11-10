@@ -1,0 +1,13 @@
+[package]
+name = "readability-cli"
+version = "0.1.0"
+authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
+
+[[bin]]
+name = "readability"
+path = "src/main.rs"
+
+
+[dependencies]
+readability = "^0"
+url         = "^1.5"
